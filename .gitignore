@@ -1,0 +1,21 @@
+# --- Secrets: keep your real WiFi credentials out of the repo ---
+# The real esp32/config.py holds your WiFi password. Commit config.example.py
+# instead; each person copies it to config.py and fills in their own creds.
+esp32/config.py
+
+# --- Python junk ---
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- MicroPython build artifacts ---
+*.mpy

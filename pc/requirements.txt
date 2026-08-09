@@ -1,0 +1,9 @@
+# PC-side dependencies for MediaPipe arm mimicry.
+# REQUIRES Python 3.11 or 3.12. MediaPipe's Pose/Hands (mp.solutions) API is
+# broken/absent in 0.10.30+, and 0.10.14 has no wheels for Python 3.13+.
+#
+#   py -V:3.12 -m pip install -r requirements.txt
+#
+mediapipe==0.10.14
+opencv-python==4.10.0.84
+numpy==1.26.4
